@@ -1,0 +1,70 @@
+# Laravel-specific
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+# Composer
+/vendor/
+
+# Node.js
+/node_modules/
+/npm-debug.log
+
+# Laravel Mix
+/public/css/
+/public/js/
+/public/mix-manifest.json
+
+# PHPUnit
+/.phpunit.cache
+/phpunit.xml
+
+# Homestead
+/.homestead-aliases
+Homestead.yaml
+/.homestead
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.xlsx
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+*.sublime-project
+*.sublime-workspace
+*.idea/
+*.vscode/
+
+# Laravel IDE Helper
+_ide_helper.php
+_ide_helper_models.php
+_ide_helper.phpstorm.meta.php
+
+# Laravel Backup
+/backups
+
+# Laravel Telescope
+/storage/app/telescope
+/storage/logs/telescope*
+/telescope
+
+# Laravel Telescope Sensitive Configuration
+sensitive.php

@@ -1,0 +1,179 @@
+
+
+.rotate-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 20px;
+    /*transform: rotate(180deg);*/
+    transform-origin: center center;
+    width: 90vh;
+    /* Set a fixed width to make it smaller */
+    height: 50%;
+    /* Set the height to 100% to fill the container vertically */
+}
+
+.rotate-container h4 {
+    font-size: 22px;
+    /* Adjust the font size as needed */
+}
+
+.rotate-container .row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    /*transform: rotate(-90deg);*/
+    /* Counter-rotate the content to make it upright */
+}
+
+.content {
+
+    width: 690.944px;
+    height: 295.276px;
+    position: relative;
+}
+
+.myuis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 20px;
+    /* transform: rotate(180deg); */
+    transform-origin: center center;
+
+    transform: translate(14%, 30%);
+
+}
+
+
+#montant {
+    position: absolute;
+    top: 28px;
+    /* Align vertically in the middle */
+    left: 80%;
+    /* Align horizontally in the middle */
+    transform: translate(-5vh, 0vh);
+    /* Center the element */
+}
+
+#letter {
+    position: absolute;
+    top: 52px;
+    /* Align vertically in the middle */
+    left: 30%;
+    /* Align horizontally in the middle */
+    /* Center the element */
+    transform: translate(-6vh, 0vh);
+
+}
+
+#benef {
+    position: absolute;
+    top: 105px;
+    /* Align vertically in the middle */
+    left: 10%;
+    /* Align horizontally in the middle */
+    /* Center the element */
+    transform:translate(2vh, -1vh);
+
+}
+
+#datep {
+    position: absolute;
+    top: 152px;
+    /* Align vertically in the middle */
+    left: 80%;
+    /* Align horizontally in the middle */
+    /* Center the element */
+    transform:translate(-5vh, -2.6vh);
+
+}
+
+#ville {
+    position: absolute;
+    top: 152px;
+    /* Align vertically in the middle */
+    left: 62%;
+    /* Align horizontally in the middle */
+    /* Center the element */
+    transform:translate(-11vh, -3vh);
+
+}
+
+ @media print {
+    body * {
+        visibility: hidden;
+    }
+
+
+
+    #print-content,
+    #print-content * {
+        visibility: visible;
+        transform: translate(-6%, -8%);
+    }
+
+    .myuis {
+        visibility: visible;
+        display: flex;
+    align-items: top;
+    position: absolute;
+    gap: 20px;
+    /* transform: rotate(180deg); */
+    transform: translate(0%, 0%);
+    }
+
+    .rotate-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 20px;
+    /*transform: rotate(180deg);*/
+    transform-origin: center center;
+    width: 60vh;
+    /* Set a fixed width to make it smaller */
+    height: 31%;
+    /* Set the height to 100% to fill the container vertically */
+}
+
+
+#ville {
+    position: absolute;
+    top: 152px;
+    /* Align vertically in the middle */
+    left: 62%;
+    /* Align horizontally in the middle */
+    /* Center the element */
+    transform:translate(-11vh, -1.5vh);
+
+}
+
+#datep {
+    position: absolute;
+    top: 152px;
+    /* Align vertically in the middle */
+    left: 80%;
+    /* Align horizontally in the middle */
+    /* Center the element */
+    transform:translate(-7vh, -1.5vh);
+
+}
+
+#benef {
+    position: absolute;
+    top: 80px;
+    /* Align vertically in the middle */
+    left: 10%;
+    /* Align horizontally in the middle */
+    /* Center the element */
+    transform:translate(2vh, 1vh);
+
+}
+
+
+}
+
